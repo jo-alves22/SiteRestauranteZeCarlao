@@ -1,0 +1,90 @@
+body{
+    width: 960px;
+    margin: auto;
+    background-color: #E5E5E5;
+    font-family: 'Anton', sans-serif;
+}
+.container{
+    width: 960px;
+    margin: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+.chamada a{
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding-bottom: 0px;
+    padding-right: 5px;
+ 
+}
+header h1{
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+header p{
+    font-size: 14x;
+    padding-top: 0px;
+    padding-right: 50px;
+    padding-bottom: 0px;
+    padding-left: 50px;
+    /* padding: 50 50 30 50px; */
+}
+
+.nome{
+    margin-top: 46px;
+    display: flex;
+    justify-content: space-around;
+    background-color: brown; 
+    height: 250px;  
+}
+.nome img{
+    width: 200px;
+    height: 250px;
+}
+.nome h2{
+    line-height: 150px;
+    font-family: 'Bangers', cursive;
+    font-size: 60px;
+    color: white;
+}
+H2{
+    margin-top: 50px;
+    text-align: center;
+    color: brown;
+}
+.cards{
+    width: 290px;
+    
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    margin-bottom: 15px;
+}
+.cards img{
+    width: 100%;
+    height: 250px;
+}
+.cards p{
+    text-align: center;
+    color: brown;
+}
+.colunas{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+footer{
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: brown;
+    color: white;
+}
